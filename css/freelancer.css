@@ -80,6 +80,7 @@ hr.star-primary:after {
 }
 
 header {
+    position:relative;
     text-align: center;
     color: #fff;
     background: #046380;
@@ -96,6 +97,7 @@ header img {
 }
 
 header .intro-text .name {
+    z-index: 2000;
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -140,7 +142,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: black;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
