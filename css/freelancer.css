@@ -481,5 +481,22 @@ navbar-nav>.active>a:focus {
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color:silver;
+  color:silver;
+}
+.navbar-default .navbar-nav>li>a {
+  color:silver;
+}
+
+.navbar-toggle {
+  background-color:black;
+}
+
+.navbar-header {
+  background-color:black;
+}
+
+@media(min-width:768px) {
+  .navbar-header {
+    background-color:transparent;
+  }
 }
